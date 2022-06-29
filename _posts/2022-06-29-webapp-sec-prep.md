@@ -20,8 +20,6 @@ Ten post jest krótkim wprowadzeniem do bezpieczeństwa aplikacji webowych i pow
     2. [SELECT](#select)
     3. [Union](#union)
 3. [HTML, JS i narzędzia deweloperskie](#html)
-    1. [Podstawowe tagi HTML](#tagi-html)
-    2. [Podstawy JS](#js)
 
 ## Protrokół HTTP <a name="Protokół HTTP"></a>
 HTTP to najbardziej popularny obecnie prtokół komunikacji między dwoma serwisami (stronami internetowymi, serwerami itp.) w Internecie. Jest to protokół głównie tekstowy i bezstanowy, co oznacza że każde zapytanie jest wysyłane w formie tekstowej (o określonej strukturze, omówionej niżej) oraz że serwer nie pamięta poprzednich zapytań od danego klienta. Tę ostatnią część można obejść za pomocą ciasteczek, ale jest to poza zakresem tego wprowadzenia.
@@ -148,7 +146,7 @@ Powyższe zapytanie wybierze wszystkie kolumny z tabeli table1, ale pokaże tylk
 - TestWarez
 - SuperTestWarez
 - TestWarez!
--  TestWarez (spacje na początku i końcu)
+- ` TestWarez ` (spacje na początku i końcu)
 
 Jeśli chcielibyśmy znaleźć dokładne dopasowanie do ciągu znaków, należy pominąć znaki procentu. Analogiczny warunek można dopisać do innych typów danych (np. `WHERE column2=5`)
 
