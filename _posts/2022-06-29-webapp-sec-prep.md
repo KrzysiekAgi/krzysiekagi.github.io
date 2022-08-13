@@ -2,7 +2,7 @@
 layout: post
 title: "Wprowadzenie do bezpieczeństwa aplikacji webowych"
 author: "Kris"
-tags: security, TestWarez, workshop, intro
+tags: security, TestWarez, workshop, intro, polski
 ---
 
 Ten post jest krótkim wprowadzeniem do bezpieczeństwa aplikacji webowych i powtórką z podstawowych zagadnień związanych z aplikacjami w Internecie.
