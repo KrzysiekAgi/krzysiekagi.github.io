@@ -159,7 +159,7 @@ Tak więc
 ```
 SELECT col1, col2 FROM tab1 UNION SELECT col3, col4 FROM tab2
 ```
-spowoduje wyświetlenie kolumn col1 oraz col2, a pod nimi kolumn col3 ("doklejonej" do col1) i col4 ("doklejonej" do col2).
+spowoduje wyświetlenie kolumn col1 oraz col2, a pod nimi kolumn col3 ("doklejonej" do col1) i col4 ("doklejonej" do col2). Ponieważ `UNION` łączy dwa pełnoprawne zapytania `SELECT`, możemy oprócz (lub zamiast) kolumn wybrać dane (`SELECT 1 [...]`) lub funkcje (`max`, `min`, `avg`, etc).
 
 ## HTML, JS i narzędzia deweloperskie <a name="html"></a>
 HTML i język JavaScript stanowią podstawę dzisiejszych stron internetowych. Kod źródłowy strony można podejrzejć naciskając w przeglądarce Crtl+u (skrót Firefoxa) lub klikając PPM i wybierając "Pokaż źródło strony". 
