@@ -20,6 +20,7 @@ Ten post jest krótkim wprowadzeniem do bezpieczeństwa aplikacji webowych i pow
     2. [SELECT](#select)
     3. [Union](#union)
 3. [HTML, JS i narzędzia deweloperskie](#html)
+4. [I co dalej?](#dalej)
 
 ## Protrokół HTTP <a name="Protokół HTTP"></a>
 HTTP to najbardziej popularny obecnie prtokół komunikacji między dwoma serwisami (stronami internetowymi, serwerami itp.) w Internecie. Jest to protokół głównie tekstowy i bezstanowy, co oznacza że każde zapytanie jest wysyłane w formie tekstowej (o określonej strukturze, omówionej niżej) oraz że serwer nie pamięta poprzednich zapytań od danego klienta. Tę ostatnią część można obejść za pomocą ciasteczek, ale jest to poza zakresem tego wprowadzenia.
@@ -168,3 +169,11 @@ Podstawowe elementy HTMLa, które są przydatne to m.in. `<head>, <body>, <h1>, 
 Element `<script>` pozwala na wstrzykiwanie kodu [JavaScript](https://www.w3schools.com/js/DEFAULT.asp).
 
 Oprócz kodu źródłowego przeglądarka pozwal nam również zobaczyć konsolę, ruch sieciowy na danej stronie, czy otworzyć inspektora i podejrzeć konkretne elementy. To wszystko można zrobić za pomocą narzędzi deweloperskich (Crtl+Shift+C lub menu przeglądarki -> więcej narzędzi -> Web Dev tools)
+
+## I co dalej <a name="dalej"></a>
+Poniżej lista materiałów dla uczestników warsztatu z TestWarez 2022, z sugestiami gdzie dlaje szukać wiedzy w temacie bezpieczeństwa.
+
+- [Hack The Box](https://hackthebox.com/) oraz [Hack The Box Academy](academy.hackthebox.com/), czyli ogólnodostępne maszyny typu CTF, na których można ćwiczyć swoje umiejętności oraz portal z kursami od tej samej organizacji. Jeśli się zatniecie na jakiejś maszynie, to [ippsec rocks](https://ippsec.rocks/?#) robi bardzo przejrzyste i przydatne nagrania z testów tych maszyn.
+- [Fundacja OWASP](https://owasp.org) i wszelkiego rodzaju jej materiały takie jak np. OWASP Testing Guide, OWASP Top Ten czy OWASP ASVS.
+- W dalszej perspektywie możecie pomyśleć o [OSCP](https://www.offensive-security.com/pwk-oscp/). 
+- *Opcja tylko dla uczestników:* możecie zacząć od przejęcia roota na maszynie, którą dostaliście na pendrive'ach. Zacznijcie od przeskanowania adresu IP maszyny [nmapem](https://nmap.org/) z opcją skanowania wszystkich portów (`-p-`). 
