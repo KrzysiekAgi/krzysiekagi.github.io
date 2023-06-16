@@ -5,7 +5,8 @@ author: "Kris"
 permalink: /about/
 ---
 
-This is my personal blog. Will update the bios and stuff later.
-
-## Credits
-One needs to give the credits where credits due. This page is made using the [*Tale*](https://github.com/chesterhow/tale) template for [Jekyll](https://jekyllrb.com/).
+Programista języków wszelkich (zdarzyło mu się pisać m.in. w Javie, Scali, Pythonie, C++, czy JS) operujący na stałym podłączeniu do kawy. Dużo satysfakcji sprawia mi poznawanie nowych rzeczy oraz dzielenie się z innymi tym, co znalazłem. \\
+Obecnie Full Stack Developer w [SmartBear](https://smartbear.com/), gdzie pracuję nad [Zephyr Enterprisem](https://smartbear.com/test-management/zephyr/). \\
+Poprzednio m.in. programista w Capgemini. \\
+\\
+Raz, czy dwa zdarzyło mi się pojawić na jakiejś [konferencji](https://2022.testwarez.pl/speaker/krzysztof-agienczuk/).
